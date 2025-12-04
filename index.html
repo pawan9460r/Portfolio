@@ -91,7 +91,7 @@
             margin-left: 10px;
         }
         .social-media { 
-            height: fit-content;
+            height: 100%;
             width: fit-content;
             border: 1px solid red;
             margin: 30px;
@@ -102,7 +102,7 @@
             padding-bottom: 2px;
             justify-content: center;
             align-items: center;
-        
+            
             text-align: center;
             background-color: rgb(31, 31, 31);
             border-top-right-radius: 0px;
@@ -111,6 +111,10 @@
             border-bottom-right-radius: 50px;
             font-size: 25px;
             box-shadow: 10px 10px 50px red;
+            transition: box-shadow 0.3s ease;
+        }
+        .social-media:hover {
+            box-shadow: 10px 10px 50px purple;
         }
         ul li { 
             margin: 10px;
